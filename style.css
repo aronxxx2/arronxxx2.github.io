@@ -1,0 +1,26 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    color: white;
+    background-color: black;
+}
+nav ul{
+    flex-direction: row;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+nav.logo{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
